@@ -8,12 +8,18 @@
     <!-- VUE -->
     <script src="https://unpkg.com/vue@next"></script>
     <!-- MAIN -->
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <title>Vue3</title>
 </head>
 <body>
-    <div class="center">
+    <div class="center" id="data">
         <h1>VUE 3</h1>
+        <div>
+            Counter: {{ counter }}
+        </div>
+        <div>
+            Date: {{ date }}
+        </div>
     </div>
 </body>
 </html>
